@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/FishGameWeb.loader.js";
+      var loaderUrl = buildUrl + "/GitHostPage.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/FishGameWeb.data.br",
-        frameworkUrl: buildUrl + "/FishGameWeb.framework.js.br",
-        codeUrl: buildUrl + "/FishGameWeb.wasm.br",
+        dataUrl: buildUrl + "/GitHostPage.data",
+        frameworkUrl: buildUrl + "/GitHostPage.framework.js",
+        codeUrl: buildUrl + "/GitHostPage.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AmiSweetFang",
         productName: "FishGame",
@@ -102,7 +102,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/FishGameWeb.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/GitHostPage.jpg') center / cover";
       document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");
